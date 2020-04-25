@@ -1,0 +1,138 @@
+.navbar{
+    width: 100%;
+    background: #f9f9f9;
+    height: 94px;
+    border-bottom: 1px solid #f15556;
+    top: 0;
+    padding: 0 15px;
+}
+.nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-img{
+    max-height: 90px;
+    float: left; 
+}
+.logo-text{
+    font: normal normal normal 36px/1em 'Century Gothic', sans-serif;
+    margin-top: 15px;
+    padding-left: 15px;
+    text-align: left;
+    color: #e35354;
+}
+.logo-text span{
+    color: #9fb038;
+}
+.logo-btn {
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.logo-btn:hover {
+    cursor: pointer;
+}
+.logo-icon {
+    color: #e35354;
+    font-size: 1.9rem;
+}
+
+.nav-links {
+    list-style-type: none;
+    transition: var(--mainTransition);
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 0;
+}
+.show-nav {
+    height: 100%;
+    background: #f9f9f9;
+    position: fixed;
+    right: 0;
+    top: 94px;
+    width: 200px;
+}
+.mystyle{
+    background: #f15556 !important;
+    border-radius: 6px;
+    font-size: 15px !important;
+    padding: 13px 25px !important;
+    margin-bottom: 5px;
+}
+.nav-links a {
+    display: block;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 35px 25px;
+    letter-spacing: var(--mainSpacing);
+    font: normal normal normal 18px/23px 'Century Gothic', sans-serif;
+    color: #000;
+    background: repeat-x url("../images/banner_bg.jpg") 0 -94px ;
+    transition-duration: .5s;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links a:hover {
+    background-position: 0 0px ;
+    background-color: #f15556;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav-social-links {
+    display: none;
+}
+
+@media screen and (min-width: 576px) {
+.navbar {
+    padding: 0 2rem;
+}
+}
+
+@media screen and (max-width: 990px) {
+    .logo-text{
+        position: absolute;
+        left: 80px;
+        top: 18px;
+    }
+}
+
+@media screen and (max-width: 577px) {
+    .logo-text{
+        left: 47px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+.logo-btn {
+    display: none;
+}
+.nav-center {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links {
+    height: auto;
+    display: flex;
+}
+.nav-social-links {
+    display: flex;
+    line-height: 0;
+}
+.nav-social-links a {
+    color: var(--primaryColor);
+    margin: 0 0.5rem;
+    font-size: 1.2rem;
+    transition: var(--mainTransition);
+}
+.nav-social-links a:hover {
+    color: var(--mainBlack);
+    transform: translateY(-5px);
+}
+}
