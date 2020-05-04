@@ -2,8 +2,23 @@
     margin-top: auto;
     padding: 1.2rem;
     text-align: center;
-    color: #fff;
     border-top: 2px solid #507f9a;
-    height: 70px;
     background: #447693;
+}
+
+.icons a {
+    display: inline-block;
+    margin: 1rem;
+    font-size: 1.3rem;
+    color: white;
+    transition: all 0.3s linear;
+    font: normal normal normal 18px/23px 'Century Gothic', sans-serif;
+}
+.icons a:hover {
+    color: #9fb038;
+}
+.copyright {
+    letter-spacing: 4px;
+    line-height: 2;
+    color: #fff;
 }

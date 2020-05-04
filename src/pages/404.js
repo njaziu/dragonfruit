@@ -8,7 +8,7 @@ export default function error() {
         <>
         <Layout>
            <div className={styles.error}>
-               <h1>opps it's a dead end</h1>
+               <h1 className={styles.errorMsg}>opps it's a dead end</h1>
                 <Link to="/" className="btn-white"> Back to home</Link>
            </div>
         </Layout>

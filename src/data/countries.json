@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Angel Falls",
+        "content": "Venezuela overflows with natural wonders, including the world's highest waterfall—the 3,212-foot cascades of Angel Falls, located in the UNESCO-protected Canaima National Park.",
+        "image": "https://media.cntraveler.com/photos/5cb63a087b743b471660a8da/master/w_820,c_limit/Angel-Falls-Venezuela_GettyImages-165513023.jpg",
+        "country": "Venezuela"
+    },
+    {
+        "id": 2,
+        "name": "Cappadocia",
+        "content": "Cappadocia, an area in Turkey where entire cities have been carved into rock, is pretty incredible on its own. But whenever hot-air balloons pepper the sky, its beauty level literally skyrockets.",
+        "image": "https://media.cntraveler.com/photos/5cb63a0c6b5c4df50b5ec14e/master/w_820,c_limit/Cappadocia-Turkey_GettyImages-588944267.jpg",
+        "country": "Turkey"
+    },
+    {
+        "id": 3,
+        "name": "Trolltunga",
+        "content": "Any Pinterest or Instagram user has probably seen a photo of Trolltunga (Troll's Tongue), Norway's undeniable photography darling. The protruding rock sits about 2,300 feet above Lake Ringedalsvatnet.",
+        "image": "https://media.cntraveler.com/photos/5cb63a4e515ac82e0b3761af/master/w_820,c_limit/Trolltunga-Norway_GettyImages-1137510880.jpg",
+        "country": "Norway"
+    },
+    {
+        "id": 4,
+        "name": "Fernando Noronha",
+        "content": "This archipelago off the northeast coast of Brazil consists of 21 islands, featuring some of the best beaches and most beautiful landscapes in the country. Think waterfalls, towering cliffs, stretches of white sand.",
+        "image": "https://media.cntraveler.com/photos/5cb63a186b5c4d315c5ec154/master/w_820,c_limit/Fernando-de-Noronha-Brazil_GettyImages-93429821.jpg",
+        "country": "Brazil"
+    },
+    {
+        "id": 5,
+        "name": "Laguna Colorada",
+        "content": "About a three-hour drive north from Chile’s San Pedro de Atacama, this salt lake in the shadow of the Andes is known for its blood-red waters—the result of algae that thrive in extreme heat.",
+        "image": "https://media.cntraveler.com/photos/5cb63a2411a45e1500303732/master/w_820,c_limit/Laguna-Colorada-Bolivia_GettyImages-804143238.jpg",
+        "country": "Bolivia"
+    },
+    {
+        "id": 6,
+        "name": "Machu Picchu",
+        "content": "Perched atop the flattened peak of a mountain, the ancient Wonder of the World benefits from the famous backdrop of Huayna Picchu, lush green surfaces, and a barrier of Andean peaks.",
+        "image": "https://media.cntraveler.com/photos/5cb63a273bf1dc125ade9aaf/master/w_820,c_limit/Machu-Picchu-Peru_GettyImages-109401484.jpg",
+        "country": "Peru"
+    }
+]

@@ -26,7 +26,7 @@ const Navbar = () =>{
                     {links.map((item,index)=>{
                         return(
                             <li key={index}>
-                                <Link to={item.path} className={isOpen ? ` ${styles.mystyle}` : ``}>{item.text}</Link>
+                                <Link to={item.path} className={isOpen ? ` ${styles.mystyle}` : ``}><span className={styles.icon}>{item.icon}</span>{item.text}</Link>
                             </li>
                         )
                     })}

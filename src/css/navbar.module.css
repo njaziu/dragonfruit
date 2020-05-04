@@ -44,6 +44,7 @@
     height: 0;
     overflow: hidden;
     margin-bottom: 0;
+    
 }
 .show-nav {
     height: 100%;
@@ -52,6 +53,8 @@
     right: 0;
     top: 94px;
     width: 200px;
+    padding-top: 5px;
+    z-index: 999;
 }
 .mystyle{
     background: #f15556 !important;
@@ -83,6 +86,17 @@
 
 .nav-social-links {
     display: none;
+}
+
+.icon{
+    display: none;
+}
+
+@media screen and (max-width: 992px){
+    .icon{
+        display: block;
+        margin: -2px 5px 0 0;
+    }
 }
 
 @media screen and (min-width: 576px) {
