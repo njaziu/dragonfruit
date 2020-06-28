@@ -7,7 +7,7 @@ const Countries = () => {
     return (
         <div className="container">
             <div className={styles.cardsContainer}>
-                {data.map((post, index) => {
+                {data.slice(0,3).map((post, index) => {
                     return (
                         <article className={styles.tour} key={index}>
                             <div className={styles.imgContainer}>

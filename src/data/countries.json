@@ -35,10 +35,31 @@
         "country": "Bolivia"
     },
     {
-        "id": 6,
-        "name": "Machu Picchu",
-        "content": "Perched atop the flattened peak of a mountain, the ancient Wonder of the World benefits from the famous backdrop of Huayna Picchu, lush green surfaces, and a barrier of Andean peaks.",
-        "image": "https://media.cntraveler.com/photos/5cb63a273bf1dc125ade9aaf/master/w_820,c_limit/Machu-Picchu-Peru_GettyImages-109401484.jpg",
-        "country": "Peru"
+        "id": 7,
+        "name": "Istanbul",
+        "content": "Once serving as the capital of the Ottoman and Byzantine Empires, Istanbul today is the largest city in Turkey and one of the largest in the world. Istanbul stretches across a narrow.",
+        "image": "https://cdn-0.touropia.com/gfx/d/best-places-to-visit-in-turkey/istanbul.jpg?v=1",
+        "country": "Turkey"
+    },
+    {
+        "id": 8,
+        "name": "Side",
+        "content": "A major port in ancient Pamphylia and occupied by Alexander the Great in 4th century BC, Side today is a picturesque town of classic ruins and modern day resorts overlooking sandy white beaches. ",
+        "image": "https://cdn-0.touropia.com/gfx/d/best-places-to-visit-in-turkey/side.jpg?v=1",
+        "country": "Turkey"
+    },
+    {
+        "id": 9,
+        "name": "Canaima National Park",
+        "content": "Canaima National Park covers three million hectares and is listed as a UNESCO World Heritage Site. It is usually associated with Angel Falls and the area around the town of Canaima.",
+        "image": "https://www.planetware.com/photos-large/VEN/venezuela-canaima-national-park-waterfalls.jpg",
+        "country": "Venezuela"
+    },
+    {
+        "id": 10,
+        "name": "Parque Nacional",
+        "content": "Medanos de Coro National Park offers surprising sights, with rolling sand dunes typical of a desert scene. The sand dunes, known locally as medanos, roll across the landscape.",
+        "image": "https://www.planetware.com/photos-large/VEN/venezuela-medanos-de-coro.jpg",
+        "country": "Venezuela"
     }
 ]

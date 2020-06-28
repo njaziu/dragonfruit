@@ -22,8 +22,7 @@ class Slideshow extends Component {
                 id: 1,
                 position: s.offScreenRight,
                 transition: true,
-            },
-            currentId: 0
+            }
         };
     }
 
@@ -41,34 +40,30 @@ class Slideshow extends Component {
         }, 4000);
     };
 
-    setSlideState = (slide1, slide2, currentId) => {
+    setSlideState = (slide1, slide2) => {
         this.setState({
             slide1: slide1,
-            slide2: slide2,
-            currentId: currentId
+            slide2: slide2
         });
     };
 
     transitionSlides = () => {
         const { slide1, slide2 } = this.state;
-        let currentId;
         if (slide1["position"] === s.onScreen) {
             slide1["position"] = s.offScreenLeft;
             slide2["position"] = s.onScreen;
-            currentId = slide2.id;
         } else {
             slide1["position"] = s.onScreen;
             slide2["position"] = s.offScreenLeft;
-            currentId = slide1.id;
         }
-        this.setSlideState(slide1, slide2, currentId);
+        this.setSlideState(slide1, slide2);
         setTimeout(() => {
             this.resetSlideOffScreen();
         }, 1000);
     };
 
     resetSlideOffScreen = () => {
-        const { slide1, slide2, currentId } = this.state;
+        const { slide1, slide2} = this.state;
         const { slides } = this.props;
         if (slide1["position"] === s.offScreenLeft) {
             slide1["transition"] = false;
@@ -79,20 +74,20 @@ class Slideshow extends Component {
             slide2["position"] = s.offScreenRight;
             slide2["id"] = slide1.id + 1 === slides.length ? 0 : slide1.id + 1;
         }
-        this.setSlideState(slide1, slide2, currentId);
-        this.resetSlideTransitions(slide1, slide2, currentId);
+        this.setSlideState(slide1, slide2);
+        this.resetSlideTransitions(slide1, slide2);
     };
 
-    resetSlideTransitions = (slide1, slide2, currentId) => {
+    resetSlideTransitions = (slide1, slide2) => {
         setTimeout(() => {
             slide1["transition"] = true;
             slide2["transition"] = true;
-            this.setSlideState(slide1, slide2, currentId);
+            this.setSlideState(slide1, slide2);
         }, 500);
     };
 
     render() {
-        const { slide1, slide2, currentId } = this.state;
+        const { slide1, slide2} = this.state;
         const { slides } = this.props;
         return (
             <div className={styles.slideshowContainer}>

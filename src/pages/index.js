@@ -3,6 +3,8 @@ import Layout from '../components/Layout'
 import Slider from '../components/Slider'
 import Banner from '../components/Banner'
 import Countries from '../components/Countries'
+// import Images from '../examples/Images'
+
 
 
 
@@ -18,5 +20,6 @@ export default () => (
       Phasellus tincidunt arcu eleifend placerat posuere. Nullam nec eros in leo facilisis blandit id in neque. 
       Proin varius, neque in eleifend porta, neque arcu dapibus risus, vel congue ante nibh varius nisi."></Banner>
       <Countries />
+      {/* <Images /> */}
     </Layout>
 )
